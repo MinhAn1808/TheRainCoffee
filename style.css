@@ -57,14 +57,15 @@ nav ul li:active{
     box-shadow: 0 5px 5px 0 black;
 }
 #home{
+    position: relative;
     display: flex;
     flex-direction: row;
-    margin: 20px;
-    padding: 20px;
     justify-content: space-evenly;
 }
 .home-img{
+    position: relative;
     width: 200px;
+    top: -10px;
     transition: ease-in-out .5s;
 }
 .home-img:hover{
